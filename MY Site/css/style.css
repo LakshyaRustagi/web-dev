@@ -1,0 +1,73 @@
+.gradient-background {
+    background: linear-gradient(300deg, #E19898, #A2678A, #4D3C77 , #213555);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.all
+{
+    color: #1F4172;
+}
+.img{
+    margin-left: 0;
+}
+.nav-link
+{
+    color: white;
+    border-bottom-color: aliceblue;
+    border-width: 10px;
+}
+.first
+{   
+    background-color: #213555;
+    border-style :solid;
+    border-top-width: 0;
+    border-bottom-color: aliceblue;
+    
+}
+.firstline{
+    color: white;
+    text-decoration-color: antiquewhite;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+.img-fluid{
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #1F4172;
+ 
+}
+.second{
+    background-color: #576CBC;
+    color: antiquewhite;
+}
+.display{
+    color:blanchedalmond ;
+}
+.bi
+{
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 0.2rem;
+}
+.butt
+{
+    color: white;
+}
+.middle
+{
+    background-color:  #E1DCD9
+}
